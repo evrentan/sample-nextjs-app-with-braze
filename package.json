@@ -6,11 +6,18 @@
     "start": "next start"
   },
   "dependencies": {
+    "@braze/web-sdk": "^5.2.0",
+    "@types/es6-promise": "^3.3.0",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.6",
+    "@types/react": "18.2.75",
+    "typescript": "5.4.4"
   }
 }
